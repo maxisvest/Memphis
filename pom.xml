@@ -10,7 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Memphis-core</module>
-        <module>Memphis-starter</module>
+        <module>Memphis-spring-boot-starter</module>
+        <module>Memphis-demo</module>
     </modules>
 
     <properties>
