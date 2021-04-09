@@ -7,6 +7,6 @@ package com.github.maxisvest.loader;
 public interface DynamicLoader {
 
 
-    <T> T load(Class<T> beanClass);
+    <T> Class<T> loadClassImpl(Class<T> beanClass);
 
 }

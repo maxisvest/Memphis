@@ -1,6 +1,7 @@
 package com.github.maxisvest.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
 /**
  * Create by yuyang

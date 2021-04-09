@@ -1,7 +1,7 @@
 package com.github.maxisvest.service;
 
 import com.github.maxisvest.config.MemphisProperties;
-import org.springframework.stereotype.Service;
+import com.github.maxisvest.core.MemphisDynamicService;
 
 import javax.annotation.Resource;
 
@@ -17,5 +17,12 @@ public class DynamicLoaderService {
     public String getProperties() {
         return memphisProperties.getTest();
     }
+
+    public <T extends MemphisDynamicService> T loadExtendService(Class<T> serviceClass) {
+        return null;
+    }
+
+
+
 
 }

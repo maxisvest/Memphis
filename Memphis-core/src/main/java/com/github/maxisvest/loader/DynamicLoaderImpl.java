@@ -8,7 +8,7 @@ public class DynamicLoaderImpl implements DynamicLoader{
 
 
     @Override
-    public <T> T load(Class<T> beanClass) {
+    public <T> Class<T> loadClassImpl(Class<T> beanClass) {
         return null;
     }
 
